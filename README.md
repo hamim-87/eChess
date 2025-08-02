@@ -4,6 +4,20 @@
 
 
 
+## 🖼️ Project Visuals
+
+<table>
+  <tr>
+    <td><img src="assets/img1.jpg" width="300"/><br/><center>(0, 0)</center></td>
+    <td><img src="assets/img2.jpg" width="300"/><br/><center>(0, 1)</center></td>
+  </tr>
+  <tr>
+    <td><img src="assets/img3.jpg" width="300"/><br/><center>(1, 0)</center></td>
+    <td><img src="assets/img4.jpg" width="300"/><br/><center>(1, 1)</center></td>
+  </tr>
+</table>
+
+
 ## 🌐 Frontend & Backend
 
 A **React frontend** and **FastAPI backend** provide the interface between physical events and digital processing.
@@ -63,17 +77,5 @@ We created a **custom dataset** using our own chessboard and pieces to train the
 
 ---
 
-## 🎥 Example Board View
 
-*(Insert an image showing the AI-detected board view)*  
-![AI Board View](./assets/ai_board_view.jpg)
 
----
-
-## 🚀 Getting Started
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
